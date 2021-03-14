@@ -1,6 +1,7 @@
 # Streamer
 
-## A gobuffalo based application for streaming media leveraging the livepeer API and transcoding service
+## Description
+A gobuffalo based application for streaming media leveraging the livepeer API and transcoding service
 
 
 ## Setup
