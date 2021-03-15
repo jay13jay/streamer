@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"log"
+	"fmt"
 	"net/http"
 	"os"
 
@@ -89,6 +90,7 @@ func createStream() {
 		log.Fatalln(err)
 	}
 
-	// fmt.Println(string(bytes))
-	return (string(bytes))
+	fmt.Println(string(bytes))
+	// return (string(bytes))
+	return
 }
